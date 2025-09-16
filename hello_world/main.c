@@ -9,6 +9,6 @@ int main(){
 
     int sum = a + b;
     
-    printf("La somme de %d + %d est %d",a,b,sum);
+    printf("\nLa somme de %d + %d est %d",a,b,sum);
     return 0;
 }
