@@ -1,6 +1,13 @@
 /.vscode
+**/.vs
 *.exe
 *.ilk
 *.obj
 *.pdb
 *.exe
+*.vcxproj*
+*.sln
+*.log
+*.tlog
+*.idb
+*.recipe
