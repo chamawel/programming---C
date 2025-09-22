@@ -73,7 +73,8 @@ ________________________
 		imul ebx, 8
 		mov i, ebx
 ________________________
-	-	mov eax, j
+	-	mov eax, j{
+
 		mov ebx, i
 		mov ecx, 2
 		sub ecx, ebx
