@@ -23,7 +23,40 @@ int main(void){
 
 // ###################################################################################
 
-/*EX 2 FAIT*/
+/*_____EX 2_____
+	- a		printf("What's the square's side lenght? (cm):");
+			scanf("%d", &side);
+
+			perimetre	= side * 4;
+			area		= side * side;
+
+			printf("the perimetre is %d (cm)\nthe area is %d (cm squared)", perimetre, area);
+
+			return 0;
+
+	- b		printf("What's the retangle 's short side lenght? (cm):");
+			scanf("%d", &short_side);
+			printf("What's the retangle 's long side lenght? (cm):");
+			scanf("%d", &long_side);
+
+			perimetre = (short_side * 2) + (long_side * 2);
+			area = short_side * long_side;
+
+			printf("the perimetre is %d (cm)\nthe area is %d (cm squared)", perimetre, area);
+
+	- c		printf("What's the parallelogram 's short side lenght? (cm):");
+			scanf("%d", &short_side);
+			printf("What's the parallelogram 's long side/base lenght? (cm):");
+			scanf("%d", &long_side);
+			printf("What's the parallelogram 's height? (cm):");
+			scanf("%d", &height);
+
+			perimetre = (short_side * 2) + (long_side * 2);
+			area = height * long_side;
+
+			printf("the perimetre is %d (cm)\nthe area is %d (cm squared)", perimetre, area);
+
+*/
 
 // ###################################################################################
 
