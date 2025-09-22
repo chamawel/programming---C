@@ -106,12 +106,40 @@ printf("the average of the marks are :%d", avg);
 
 /*_____EX 5_____
 
+int first_mark, second_mark, weighting_1, weighting_2, avg;
+printf("enter the first mark:");
+scanf("%d", &first_mark);
+printf("enter the second mark:");
+scanf("%d", &second_mark);
+printf("enter the weight of the first mark:");
+scanf("%d", &weighting_1);
+printf("enter the weight of the second mark:");
+scanf("%d", &weighting_2);
+avg = (first_mark * weighting_1 + second_mark * weighting_2) / (weighting_1 + weighting_2);
+printf("the average is :%d", avg);
+
 
 */
 
 // ###################################################################################
 
-/*EX 6*/
+/*_____EX 6*_____
+
+#include <stdio.h>
+
+int main() {
+	int difference;
+	int ageCadet;
+	int ageAine;
+	scanf("%d", ageCadet);
+	scanf("%d", &ageAine);
+	difference = ageAine - ageCadet;
+	printf("%d\n", difference);
+}
+
+*/
+
+
 
 // ###################################################################################
 
