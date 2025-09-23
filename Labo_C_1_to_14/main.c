@@ -143,32 +143,134 @@ int main() {
 
 // ###################################################################################
 
-/*EX 7*/
+/*_____EX 7_____
+
+	b = 9;
+	a = 5;
+	printf("a: %f\nb: %f\n", a, b);6
+	temp = a;
+	a = b;
+	b = temp;
+	printf("a: %f\nb: %f\n", a, b);
+
+*/
+
 
 // ###################################################################################
 
-/*EX 8*/
+/*_____EX 8_____
+
+	int rest, quotient, divider, dividend;
+	printf("what's the dividend: ");
+	scanf("%d", &dividend);
+	printf("what's the divider: ");
+	scanf("%d", &divider);
+	quotient = dividend / divider;
+	rest = dividend - (divider * quotient);
+
+	printf("Rest: %d\nQuotient: %d\n", rest, quotient);
+
+*/
 
 // ###################################################################################
 
-/*EX 9*/
+/*_____EX 9_____
+
+	a = 5;
+	b = 9.1;
+	c = 11.3;
+	printf("a: %f\nb: %f\nc: %f\n", a, b, c);
+	temp = a;
+	a = b;
+	b = c;
+	c = temp;
+	printf("Rervesed Numbers\na: %f\nb: %f\nc: %f\n", a, b, c);
+
+
+*/
 
 // ###################################################################################
 
-/*EX 10*/
+/*_____EX 10_____
+	float hypotenuse, adjacent, oposite;
+	printf("give the first leg of the triangle: ");
+	scanf("%f", &adjacent);
+	printf("give the first leg of the triangle: ");
+	scanf("%f", &oposite);
+
+	hypotenuse = sqrt(pow(adjacent, 2) + pow(oposite, 2));
+	printf("the hypotenuse is : %f", hypotenuse);
+
+*/
 
 // ###################################################################################
 
-/*EX 11*/
+/*_____EX 11___
+
+	float price_per_unit, taxed_price, BEF_price;
+	int units;
+	printf("give the price/unit: ");
+	scanf("%f", &price_per_unit);
+	printf("give the amount of units: ");
+	scanf("%d", &units);
+
+	taxed_price = (price_per_unit + (0.21 * price_per_unit))*units ;
+	BEF_price = taxed_price * 40.3399;
+
+	printf("you'll need to pay: %f BEF", BEF_price);
+
+*/
 
 // ###################################################################################
 
-/*EX 12*/
+/*_____EX 12_____
+
+	float celcius, fahreneiht;
+	printf("Send the temp in fahrenheit: ");
+	scanf("%f", &fahreneiht);
+	celcius = (fahreneiht - 32) * 5 / 9;
+	printf("The converted value is: %.2f C°", celcius);
+
+*/
 
 // ###################################################################################
 
-/*EX 13*/
+/*_____EX 13_____
+
+	float celcius, fahreneiht;
+	printf("Send the temp in celcius: ");
+	scanf("%f", &celcius);
+	fahreneiht = (celcius * 9 / 5) + 32;
+	printf("The converted value is: %.2f F", fahreneiht);
+
+*/
 
 // ###################################################################################
 
-/*EX 14*/
+
+/*_____EX 14_____
+
+- in Series
+	printf("give the first resistance's ohms: ");
+	scanf("%f", &resistance_1);
+	printf("give the second resistance's ohms: ");
+	scanf("%f", &resistance_2);
+	printf("give the third resistance's ohms: ");
+	scanf("%f", &resistance_2);
+
+	equivalent = resistance_1 + resistance_2 + resistance_3;
+	printf("the equivalent is : %f", equivalent);
+
+- parallele
+	
+	float resistance_1, resistance_2, resistance_3, equivalent;
+	printf("give the first resistance's ohms: ");
+	scanf("%f", &resistance_1);
+	printf("give the second resistance's ohms: ");
+	scanf("%f", &resistance_2);
+	printf("give the third resistance's ohms: ");
+	scanf("%f", &resistance_3);
+	equivalent = 1/( 1.0/resistance_1 + 1.0/resistance_2 + 1.0/resistance_3);
+	printf("the equivalent is : %f ohm", equivalent);
+
+*/
