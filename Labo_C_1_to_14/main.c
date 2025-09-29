@@ -307,3 +307,99 @@ int main() {
 	printf("the equivalent is : %f ohm", equivalent);
 
 */
+
+/*
+	_____EX 18_____
+
+	double distance;
+	int coord_a_x, coord_a_y, coord_b_x, coord_b_y;
+
+	// Point A coords
+	printf("Give the Xa coord:");
+	scanf("%d", &coord_a_x);
+	printf("Give the Yb coord:");
+	scanf("%d", &coord_a_y);
+
+	// Point B coords
+	printf("Give the Xb coord:");
+	scanf("%d", &coord_b_x);
+	printf("Give the Yb coord:");
+	scanf("%d", &coord_b_y);
+
+	// Calc. distance
+	distance = sqrt(pow(coord_b_x - coord_a_x,2) + pow(coord_b_y - coord_a_y,2));
+
+	printf("The distance is : %lf", distance);
+*/
+
+/*
+	_____EX 19_____
+
+	int num, last_digit, sum;
+	sum = 0;
+	num = 783;
+
+	last_digit = num % 10;
+	sum += last_digit;
+	num = num / 10;
+
+	last_digit = num % 10;
+	sum += last_digit;
+	num = num / 10;
+
+	last_digit = num % 10;
+	sum += last_digit;
+	num = num / 10;
+
+	printf("%d",sum);
+*/
+
+/*
+	_____EX 25_____
+
+
+*/
+
+int main() {
+	int two_hundred_bill,
+		one_hundred_bill,
+		fifty_bill,
+		twenty_bill,
+		ten_bill,
+		five_bill,
+		two_coin,
+		one_coin;
+	
+	int sum_of_money;
+
+	sum_of_money = 435;
+	
+
+	two_hundred_bill = sum_of_money / 200;
+	sum_of_money = sum_of_money % 200;
+	
+	one_hundred_bill = sum_of_money / 100;
+	sum_of_money = sum_of_money % 100;
+	
+	fifty_bill = sum_of_money / 50;
+	sum_of_money = sum_of_money % 50;
+	
+	twenty_bill = sum_of_money / 20;
+	sum_of_money = sum_of_money % 20;
+	
+	ten_bill = sum_of_money / 10;
+	sum_of_money = sum_of_money % 10;
+	
+	five_bill = sum_of_money / 5;
+	sum_of_money = sum_of_money % 5;
+	
+	two_coin = sum_of_money / 2;
+	sum_of_money = sum_of_money % 2;
+	
+
+	one_coin = sum_of_money / 1;
+	
+	printf("200:%d\n100:%d\n50:%d\n20:%d\n10:%d\n5:%d\n2:%d\n1:%d", two_hundred_bill, one_hundred_bill, fifty_bill,twenty_bill,ten_bill,five_bill,two_coin,one_coin);
+
+
+}
